@@ -3,17 +3,18 @@
   <metadata>
     <id>TreeViewEx.fork</id>
     <title>TreeViewEx forked</title>
-    <version>0.1.0.0</version>
+    <version>0.1.1.0</version>
     <authors>Goroll, kirkktx</authors>
     <owners>Goroll, kirkktx</owners>
     <license type="expression">BSD-2-Clause OR MIT</license>
-    <projectUrl>http://treeviewex.codeplex.com/</projectUrl>
+    <projectUrl>https://github.com/kirkktx/TreeViewEx</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>
       A tree view supporting multi select.
       Original license from codeplex archive is missing.
       http://treeviewex.codeplex.com/license
-      Fork to 461</description>
+      
+      </description>
     <copyright>Copyright 2012</copyright>
     <tags>nuget wpf treeview tree control</tags>
   </metadata>
