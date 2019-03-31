@@ -154,16 +154,16 @@
     <None Include="NuGet\TreeViewEx.nuspec" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NuGet\lib\net40\" />
+    <Folder Include="NuGet\lib\net461\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="tools\NuGet.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>rem del /s /f /q $(ProjectDir)\NuGet\lib
-rem xcopy /y $(TargetPath) $(ProjectDir)NuGet\lib\net40\
-rem $(ProjectDir)Tools\NuGet.exe pack $(ProjectDir)NuGet\TreeViewEx.nuspec -basepath $(ProjectDir)NuGet -outputdir $(TargetDir)</PostBuildEvent>
+    <PostBuildEvent>del /s /f /q $(ProjectDir)\NuGet\lib
+xcopy /y $(TargetPath) $(ProjectDir)NuGet\lib\net461\
+$(ProjectDir)Tools\NuGet.exe pack $(ProjectDir)NuGet\TreeViewEx.nuspec -basepath $(ProjectDir)NuGet -outputdir $(TargetDir)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

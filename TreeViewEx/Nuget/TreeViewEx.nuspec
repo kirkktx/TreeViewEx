@@ -1,15 +1,19 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>TreeViewEx</id>
-    <title>TreeViewEx</title>
+    <id>TreeViewEx.fork</id>
+    <title>TreeViewEx forked</title>
     <version>0.1.0.0</version>
-    <authors>Goroll</authors>
-    <owners>Goroll</owners>
-    <licenseUrl>http://treeviewex.codeplex.com/license</licenseUrl>
+    <authors>Goroll, kirkktx</authors>
+    <owners>Goroll, kirkktx</owners>
+    <license type="expression">BSD-2-Clause OR MIT</license>
     <projectUrl>http://treeviewex.codeplex.com/</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>A tree view supporting multi select.</description>
+    <description>
+      A tree view supporting multi select.
+      Original license from codeplex archive is missing.
+      http://treeviewex.codeplex.com/license
+      Fork to 461</description>
     <copyright>Copyright 2012</copyright>
     <tags>nuget wpf treeview tree control</tags>
   </metadata>
